@@ -1,0 +1,18 @@
+*{
+    @apply font-poppins transition-colors duration-200 box-border;
+}
+.center{
+    @apply flex justify-center items-center;
+}
+img,svg{
+    @apply max-w-full;
+}
+.side{
+    @apply px-2 md:px-3 lg:pl-[25px];
+}
+.projects .active{
+    @apply !bg-[#78cc6d] text-[#323232]
+}
+.projects .remove{
+    @apply !bg-[#cd0c0c] text-[#323232]
+}
